@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Updock&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+section, div, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+#logo {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gentium Plus', serif;
+    font-weight: bolder;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: bolder;
+}
+
+#menu li a:hover{
+    background-color: black;
+    color: red;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+
+#home{
+    background-image:url(VillaMayaBG.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{
+    background-image:url(SandBG.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about h1{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    font-size: 60px;
+    font-family: 'Gentium Plus', serif;
+}
+
+.grid-container{
+    display: grid;
+    height: 80%;
+    grid-template-columns: repeat(2,75px);
+    grid-template-rows: repeat(3, 75px);
+    grid-column-gap: 250px;
+    grid-row-gap: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-container img{
+    height: 75px;
+}
+
+#btn-container{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    background-color: gray;
+    border: none;
+    border-radius: 55px;
+    padding: 10px 20px;
+    font-size: 29px;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+}
+
+.para{
+    display: flex;
+    align-items: center;   
+}
+
+.para p{
+    margin: 15px;
+    text-align: center;
+}
+
+#btn:hover{
+    background-color: red;
+    color: antiquewhite;
+}
+
+
+
+#booking{
+    background-image:url(SandBGRev.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.pl-container img{
+    height: 150px;
+    width: 125px;
+    border: 3px solid brown;
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#reviews{
+    background-color: white;
+}
+
+#contact{
+    background-color: yellowgreen;
+}
